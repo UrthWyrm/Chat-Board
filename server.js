@@ -35,6 +35,6 @@ io.on("connection", function(socket){
 
 //Routes
 app.get("/", function(req, res){
-    console.log("~Root~");
+    console.log("Hello");
     res.render("index");
 })
